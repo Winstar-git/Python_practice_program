@@ -51,6 +51,17 @@ def Prog04():
     num2 = float(input("Enter the second number: "))
     print("The product of the two numbers is: ", num1*num2) 
 
+# Prog05: Create a program that ask user to input 2 numbers. 
+# Print the quotient of the two numbers with the decimal point
+
+def Prog05():
+    print("Prog05: Create a program that ask user to input 2 numbers.")
+    print("        Print the quotient of the two numbers with the decimal point")
+    print()
+    num1 = float(input("Enter the first number: "))
+    num2 = float(input("Enter the second number: "))
+    print(f"The quotient of the two numbers is {num1/num2:.2f}")   
+
 # Create a funtion menu for program selection
 def menu():
     def selection(prompt): # Create a funtion that limit the selection 
