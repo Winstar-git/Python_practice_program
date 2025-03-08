@@ -110,6 +110,17 @@ def Prog09():
     for i in range(0, 101, 2):
         print(i, end=" ")
 
+# Prog10: Create a program that print all the numbers starting 
+# from 0 to 100 except numbers ending in zero.
+
+def Prog10():
+    print("Prog10: Create a program that print all the numbers starting")
+    print("        from 0 to 100 except numbers ending in zero.")
+    print()
+    for i in range(1, 101):
+        if i % 10 != 0:
+            print(i, end=" ")
+
 # Create a funtion menu for program selection
 def menu():
     def selection(prompt): # Create a funtion that limit the selection 
