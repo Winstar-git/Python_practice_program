@@ -29,6 +29,18 @@ def Prog02():
     else:
         print(f"{num1} and {num2} are Not Equal")
 
+# Prog03: Create a program that ask user to input 2 numbers.
+# Print the sum of the two numbers.
+
+def Prog03():
+    print("Prog03: Create a program that ask user to input 2 numbers.")
+    print("        Print the sum of the two numbers.")
+    print()
+    num1 = float(input("Enter the first number: "))
+    num2 = float(input("Enter the second number: "))
+    print(f"The sum of {num1} and {num2} is {num1 + num2}")
+
+
 # Create a funtion menu for program selection
 def menu():
     def selection(prompt): # Create a funtion that limit the selection 
