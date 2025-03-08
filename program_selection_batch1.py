@@ -100,6 +100,16 @@ def Prog08():
             count += 1
     print(f"There are {count} odd numbers.")
 
+# Prog09: Create a program that print all 
+# the even numbers starting from 0 to 100. (Use for loop)
+
+def Prog09():
+    print("Prog09: Create a program that print all the even ")
+    print("        numbers starting from 0 to 100. (Use for loop)")
+    print()
+    for i in range(0, 101, 2):
+        print(i, end=" ")
+
 # Create a funtion menu for program selection
 def menu():
     def selection(prompt): # Create a funtion that limit the selection 
