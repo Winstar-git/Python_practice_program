@@ -160,3 +160,28 @@ def menu():
         print()
 
 # Create a code that open the practice program
+        if choice == 1:
+            Prog01()
+        elif choice == 2:
+            Prog02()
+        elif choice == 3:
+            Prog03()
+        elif choice == 4:
+            Prog04()
+        elif choice == 5:
+            Prog05()
+        elif choice == 6:
+            Prog06()
+        elif choice == 7:
+            Prog07()
+        elif choice == 8:
+            Prog08()
+        elif choice == 9:
+            Prog09()
+        elif choice == 10:
+            Prog10 () 
+        elif choice == 0:
+            print("Exiting the program. Goodbye!")
+            break
+
+menu()
