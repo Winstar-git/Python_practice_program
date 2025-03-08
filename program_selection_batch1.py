@@ -86,6 +86,20 @@ def Prog07():
         sum += num
     print(f"The sum of all the numbers is: {sum}")
 
+# Prog08: Create a program that ask user to input 10 numbers. 
+# Print how many are odd numbers.
+
+def Prog08():
+    print("Prog08: Create a program that ask user to input 10 numbers. ")
+    print("        Print how many are odd numbers.")
+    print()
+    count = 0 
+    for i in range(10):
+        num = int(input(f"{i+1}. Enter a number: "))
+        if num % 2 != 0:
+            count += 1
+    print(f"There are {count} odd numbers.")
+
 # Create a funtion menu for program selection
 def menu():
     def selection(prompt): # Create a funtion that limit the selection 
