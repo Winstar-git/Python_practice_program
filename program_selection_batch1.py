@@ -62,6 +62,17 @@ def Prog05():
     num2 = float(input("Enter the second number: "))
     print(f"The quotient of the two numbers is {num1/num2:.2f}")   
 
+# Prog06: Create a program that ask user to input 2 numbers. 
+# Print the result when the first number is raised to the second number.
+
+def Prog06():
+    print("Prog06: Create a program that ask user to input 2 numbers. Print the  ")
+    print("        result when the first number is raised to the second number.")
+    print()
+    num1 = int(input("Enter the first number: "))
+    num2 = int(input("Enter the second number: "))
+    print(f"{num1} raised to the power of {num2} is {num1**num2}")
+
 # Create a funtion menu for program selection
 def menu():
     def selection(prompt): # Create a funtion that limit the selection 
