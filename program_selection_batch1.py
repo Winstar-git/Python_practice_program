@@ -3,7 +3,7 @@
 # Prog01: Create a program that ask user to input 2 numbers.
 # Print the bigger number.
 
-def Prog01():
+def compare_two_numbers():
     print("Prog01: Create a program that ask user to input 2 numbers.")
     print("        Print the bigger number.")
     print()
@@ -17,7 +17,7 @@ def Prog01():
 # Prog02: Create a program that ask user to input 2 numbers.
 # Print "Equal" when the numbers are the same.
 
-def Prog02():
+def check_equality():
     print("Prog02: Create a program that ask user to input 2 numbers.")
     print("        Print 'Equal' when the numbers are the same.")
     print()
@@ -32,7 +32,7 @@ def Prog02():
 # Prog03: Create a program that ask user to input 2 numbers.
 # Print the sum of the two numbers.
 
-def Prog03():
+def sum_of_two():
     print("Prog03: Create a program that ask user to input 2 numbers.")
     print("        Print the sum of the two numbers.")
     print()
@@ -43,7 +43,7 @@ def Prog03():
 # Prog04: Create a program that ask user to input 2 numbers. 
 # Print the product of the two numbers.
 
-def Prog04():
+def product_of_two():
     print("Prog04: Create a program that ask user to input 2 numbers.")
     print("        Print the product of the two numbers.")
     print()
@@ -54,7 +54,7 @@ def Prog04():
 # Prog05: Create a program that ask user to input 2 numbers. 
 # Print the quotient of the two numbers with the decimal point
 
-def Prog05():
+def quotient_with_decimal():
     print("Prog05: Create a program that ask user to input 2 numbers.")
     print("        Print the quotient of the two numbers with the decimal point")
     print()
@@ -65,7 +65,7 @@ def Prog05():
 # Prog06: Create a program that ask user to input 2 numbers. 
 # Print the result when the first number is raised to the second number.
 
-def Prog06():
+def exponentiation():
     print("Prog06: Create a program that ask user to input 2 numbers. Print the  ")
     print("        result when the first number is raised to the second number.")
     print()
@@ -76,7 +76,7 @@ def Prog06():
 # Prog07: Create a program that ask user to input 10 numbers. 
 # Print the sum of all the numbers.
 
-def Prog07():
+def sum_of_all_numbers():
     print("Prog07: Create a program that ask user to input 10 numbers. ")
     print("        Print the sum of all the numbers.")
     print()
@@ -89,7 +89,7 @@ def Prog07():
 # Prog08: Create a program that ask user to input 10 numbers. 
 # Print how many are odd numbers.
 
-def Prog08():
+def count_odd_numbers():
     print("Prog08: Create a program that ask user to input 10 numbers. ")
     print("        Print how many are odd numbers.")
     print()
@@ -103,7 +103,7 @@ def Prog08():
 # Prog09: Create a program that print all 
 # the even numbers starting from 0 to 100. (Use for loop)
 
-def Prog09():
+def print_even_number():
     print("Prog09: Create a program that print all the even ")
     print("        numbers starting from 0 to 100. (Use for loop)")
     print()
@@ -113,7 +113,7 @@ def Prog09():
 # Prog10: Create a program that print all the numbers starting 
 # from 0 to 100 except numbers ending in zero.
 
-def Prog10():
+def skip_numbers_ending_zero():
     print("Prog10: Create a program that print all the numbers starting")
     print("        from 0 to 100 except numbers ending in zero.")
     print()
@@ -138,11 +138,11 @@ def menu():
         print()
         print("Practice Program")
         print()
-        print("[1] Prog01", "\t[6]  Prog06".expandtabs(tabsize=6))
-        print("[2] Prog02", "\t[7]  Prog07".expandtabs(tabsize=6))
-        print("[3] Prog03", "\t[8]  Prog08".expandtabs(tabsize=6))
-        print("[4] Prog04", "\t[9]  Prog09".expandtabs(tabsize=6))
-        print("[5] Prog05", "\t[10] Prog10".expandtabs(tabsize=6))
+        print("[1] Compare Two Numbers", "\t[6]  Exponentiation".expandtabs(tabsize=6))
+        print("[2] Check Equality", "\t[7]  Sum of Ten Numbers".expandtabs(tabsize=11))
+        print("[3] Sum of Two Numbers", "\t[8]  Count Odd Numbers".expandtabs(tabsize=7))
+        print("[4] Product of Two Numbers", "\t[9]  Print Even Numbers".expandtabs(tabsize=3))
+        print("[5] Quotient with Decimal", "\t[10] Skip ending of 0".expandtabs(tabsize=4))
         print()
         print("[0]: Exit")
         print()
@@ -152,25 +152,25 @@ def menu():
 # Create a code that open the practice program
 
         if choice == 1:
-            Prog01()
+            compare_two_numbers()
         elif choice == 2:
-            Prog02()
+            check_equality()
         elif choice == 3:
-            Prog03()
+            sum_of_two()
         elif choice == 4:
-            Prog04()
+            product_of_two()
         elif choice == 5:
-            Prog05()
+            quotient_with_decimal()
         elif choice == 6:
-            Prog06()
+            exponentiation()
         elif choice == 7:
-            Prog07()
+            sum_of_all_numbers()
         elif choice == 8:
-            Prog08()
+            count_odd_numbers()
         elif choice == 9:
-            Prog09()
+            print_even_number()
         elif choice == 10:
-            Prog10 () 
+            skip_numbers_ending_zero () 
         elif choice == 0:
             print("Exiting the program. Goodbye!")
             break
