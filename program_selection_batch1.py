@@ -40,6 +40,16 @@ def Prog03():
     num2 = float(input("Enter the second number: "))
     print(f"The sum of {num1} and {num2} is {num1 + num2}")
 
+# Prog04: Create a program that ask user to input 2 numbers. 
+# Print the product of the two numbers.
+
+def Prog04():
+    print("Prog04: Create a program that ask user to input 2 numbers.")
+    print("        Print the product of the two numbers.")
+    print()
+    num1 = float(input("Enter the first number: "))
+    num2 = float(input("Enter the second number: "))
+    print("The product of the two numbers is: ", num1*num2) 
 
 # Create a funtion menu for program selection
 def menu():
