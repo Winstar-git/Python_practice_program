@@ -73,6 +73,19 @@ def Prog06():
     num2 = int(input("Enter the second number: "))
     print(f"{num1} raised to the power of {num2} is {num1**num2}")
 
+# Prog07: Create a program that ask user to input 10 numbers. 
+# Print the sum of all the numbers.
+
+def Prog07():
+    print("Prog07: Create a program that ask user to input 10 numbers. ")
+    print("        Print the sum of all the numbers.")
+    print()
+    sum = 0 
+    for i in range(10):
+        num = float(input(f"{i+1}. Enter a number: "))
+        sum += num
+    print(f"The sum of all the numbers is: {sum}")
+
 # Create a funtion menu for program selection
 def menu():
     def selection(prompt): # Create a funtion that limit the selection 
