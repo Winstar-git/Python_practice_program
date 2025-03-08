@@ -3,7 +3,7 @@
 # Prog01: Create a program that ask user to input 2 numbers.
 # Print the smaller number.
 
-def Prog01():
+def find_smaller_number():
     print("Prog01: Create a program that ask user to input 2 numbers.")
     print("        Print the smaller number.")
     print()
@@ -17,7 +17,7 @@ def Prog01():
 # Prog02: Create a program that ask user to input 2 numbers.
 # Print "Not Equal" when the numbers are not the same.
 
-def Prog02(): 
+def check_inequality(): 
     print("Prog02: Create a program that ask user to input 2 numbers.")
     print("        Print 'Not Equal' when the numbers are not the same.")
     print()
@@ -32,7 +32,7 @@ def Prog02():
 # Prog03: Create a program that ask user to input 2 numbers.
 # Print the difference of the two numbers.
 
-def Prog03():
+def difference_of_two():
     print("Prog03: Create a program that ask user to input 2 numbers.")
     print("        Print the difference of the two numbers.")
     print()
@@ -43,7 +43,7 @@ def Prog03():
 # Prog04: Create a program that ask user to input 2 numbers. 
 # Print the quotient of the two numbers without decimal point.
 
-def Prog04():
+def quotient_without_decimal():
     print("Prog04: Create a program that ask user to input 2 numbers.")
     print("        Print the quotient of the two numbers without decimal point.")
     print()
@@ -54,7 +54,7 @@ def Prog04():
 # Prog05: Create a program that ask user to input 2 numbers. 
 # Print the remainder of the two first number is divided by second number
 
-def Prog05():
+def find_remainder():
     print("Prog05: Create a program that ask user to input 2 numbers.")
     print("        Print the remainder of the two first number is divided by second number")
     print()
@@ -65,7 +65,7 @@ def Prog05():
 # Prog06: Create a program that ask user to input 10 numbers. 
 # Printthe result of the first number minus all of the remaining numbers.
 
-def Prog06():
+def first_subtract_all():
     print("Prog06: Create a program that ask user to input 10 numbers.")
     print("        Print the result of the first number minus all of the remaining numbers.")
     print()
@@ -80,7 +80,7 @@ def Prog06():
 # Prog07: Create a program that ask user to input 10 numbers. 
 # Print how many are even numbers.
 
-def Prog07():
+def count_even_number():
     print("Prog07: Create a program that ask user to input 10 numbers.")
     print("        Print how many are even numbers.")
     print()
@@ -94,7 +94,7 @@ def Prog07():
 #Prog08: Create a program that print all the 
 # odd numbers starting from 0 to 100. (Use while loop)
 
-def Prog08():
+def print_odd_numbers():
     print("Prog08: Create a program that print all the ")
     print("        odd numbers starting from 0 to 100. (Use while loop)")
     print()
@@ -106,7 +106,7 @@ def Prog08():
 #Prog09: Create a program that print all the numbers starting 
 # from 0 to 100 except numbers ending in zero or ending five.
 
-def Prog09():
+def skip_numbers_ending_in0and5():
     print("Prog09: Create a program that print all the numbers starting from") 
     print("        0 to 100 except numbers ending in zero or ending five.")
     print()
@@ -118,7 +118,7 @@ def Prog09():
 # Prog10: Create a program that ask user to input 2 numbers. 
 # Print all the numbers between the two numbers.
 
-def Prog10():
+def print_between_two_inputs():
     print("Prog10: Create a program that ask user to input 2 numbers.")
     print("        Print all the numbers between the two numbers.")
     print()
@@ -148,11 +148,11 @@ def menu():
         print()
         print("Practice Program")
         print()
-        print("[1] Prog01", "\t[6]  Prog06".expandtabs(tabsize=6))
-        print("[2] Prog02", "\t[7]  Prog07".expandtabs(tabsize=6))
-        print("[3] Prog03", "\t[8]  Prog08".expandtabs(tabsize=6))
-        print("[4] Prog04", "\t[9]  Prog09".expandtabs(tabsize=6))
-        print("[5] Prog05", "\t[10] Prog10".expandtabs(tabsize=6))
+        print("[1] Find the Smaller Number", "\t[6]  Subtract Multiple Numbers".expandtabs(tabsize=6))
+        print("[2] Check for Inequality", "\t[7]  Count Even Numbers".expandtabs(tabsize=9))
+        print("[3] Calculate the Difference", "\t[8]  Print Odd Numbers ".expandtabs(tabsize=5))
+        print("[4] Quotient without Decimal", "\t[9]  Skip Numbers Ending in 0 and 5".expandtabs(tabsize=5))
+        print("[5] Find the Remainder", "\t[10] Print Numbers Between Two Inputs".expandtabs(tabsize=11))
         print()
         print("[0]: Exit")
         print()
@@ -161,25 +161,25 @@ def menu():
 
 # Create a code that open the practice program
         if choice == 1:
-            Prog01()
+            find_smaller_number()
         elif choice == 2:
-            Prog02()
+            check_inequality()
         elif choice == 3:
-            Prog03()
+            difference_of_two()
         elif choice == 4:
-            Prog04()
+            quotient_without_decimal()
         elif choice == 5:
-            Prog05()
+            find_remainder()
         elif choice == 6:
-            Prog06()
+            first_subtract_all()
         elif choice == 7:
-            Prog07()
+            count_even_number()
         elif choice == 8:
-            Prog08()
+            print_odd_numbers()
         elif choice == 9:
-            Prog09()
+            skip_numbers_ending_in0and5()
         elif choice == 10:
-            Prog10 () 
+            print_between_two_inputs () 
         elif choice == 0:
             print("Exiting the program. Goodbye!")
             break
